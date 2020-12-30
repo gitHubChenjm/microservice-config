@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+    - dev
+
+---
+spring:
+  profiles: dev
+  application:
+    name: microservice-config-chenjm-dev
+
+---
+spring:
+  profiles: sit
+  application:
+    name: microservice-config-chenjm-sit
